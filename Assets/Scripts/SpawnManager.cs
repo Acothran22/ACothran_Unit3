@@ -22,7 +22,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnObs()
     {
-        if (!playerCtrl.gameOver == false)
+        
         {
             Instantiate(obsPrefab, spawnPos, obsPrefab.transform.rotation);
         }

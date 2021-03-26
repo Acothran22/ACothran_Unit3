@@ -16,7 +16,7 @@ public class MoveLeft : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!playerCtrl.gameOver == false)
+        if (!playerCtrl.gameOver)
         {
             transform.Translate(Vector3.left * Time.deltaTime * speed);
         }
